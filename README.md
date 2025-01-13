@@ -101,7 +101,8 @@ new_input['Prod. year'], new_input['Category'],new_input['Leather interior'],
  np.nan, new_input['Wheel'], new_input['Color'], new_input['Airbags'])
 
 # Process data
-input_processed_df = pipeline.entire_pipeline(input_df, man_encoder, cat_encoder,fuel_encoder, gbt_encoder, dw_encoder,color_encoder, scaler)
+input_processed_df = pipeline.entire_pipeline(input_df, man_encoder, cat_encoder,fuel_encoder, 
+gbt_encoder, dw_encoder,color_encoder, scaler)
 
 # Prediction
 pred_price = loaded_model.predict(input_processed_df)
