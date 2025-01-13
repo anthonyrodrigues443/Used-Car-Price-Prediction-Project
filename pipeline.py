@@ -237,7 +237,7 @@ def scaling(df,scaler):
 def entire_pipeline(df, man_encoder, cat_encoder,fuel_encoder, 
     gbt_encoder, dw_encoder,color_encoder,scaler):
     
-    data = check_df(df)
+    data =  (df)
     data = drop_features(data)
     data = clean_Levy(data)
     data = clean_Mileage(data)

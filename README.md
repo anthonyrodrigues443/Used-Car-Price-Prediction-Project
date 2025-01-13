@@ -137,7 +137,7 @@ The project uses a Random Forest Regression model trained on historical car pric
 - Encoding: One-Hot Encoding for categorical variables
 - Scaling: Standard Scaler for numerical features
 
-[Consider adding a visualization of feature importance here]
+<img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/feature_importances.png">
 
 ## Contributing
 
