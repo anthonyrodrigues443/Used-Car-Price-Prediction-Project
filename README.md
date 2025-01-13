@@ -94,37 +94,14 @@ Example usage of the pipeline:
 import pipeline
 
 # Create input DataFrame
-input_df = pipeline.create_df(
-    id=np.nan, 
-    levy=1000, 
-    man="Toyota", 
-    mod=np.nan,
-    yr=2018,
-    cat="Sedan",
-    leather="Yes",
-    fuel="Petrol",
-    eng="2.0",
-    mil="50000 km",
-    cy=4,
-    gear="Automatic",
-    dw="4x4",
-    doors=np.nan,
-    steer="Left",
-    col="Black",
-    airbags=6
-)
+input_df = pipeline.create_df(np.nan, new_input['Levy'], new_input['Manufacturer'], np.nan, new_input['Prod. year'], new_input['Category'],new_input['Leather interior'], new_input['Fuel type'], new_input['Engine volume'] , new_input['Mileage'],new_input['Cylinders'],new_input['Gear box type'], new_input['Drive wheels'], np.nan, new_input['Wheel'], new_input['Color'], new_input['Airbags'])
 
 # Process data
-processed_df = pipeline.entire_pipeline(
-    input_df,
-    man_encoder,
-    cat_encoder,
-    fuel_encoder,
-    gbt_encoder,
-    dw_encoder,
-    color_encoder,
-    scaler
-)
+input_processed_df = pipeline.entire_pipeline(input_df, man_encoder, cat_encoder,fuel_encoder, gbt_encoder, dw_encoder,color_encoder, scaler)
+
+# Prediction
+pred_price = loaded_model.predict(input_processed_df)
+
 ```
 
 ## Model Details
