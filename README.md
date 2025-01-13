@@ -94,7 +94,11 @@ Example usage of the pipeline:
 import pipeline
 
 # Create input DataFrame
-input_df = pipeline.create_df(np.nan, new_input['Levy'], new_input['Manufacturer'], np.nan, new_input['Prod. year'], new_input['Category'],new_input['Leather interior'], new_input['Fuel type'], new_input['Engine volume'] , new_input['Mileage'],new_input['Cylinders'],new_input['Gear box type'], new_input['Drive wheels'], np.nan, new_input['Wheel'], new_input['Color'], new_input['Airbags'])
+input_df = pipeline.create_df(np.nan, new_input['Levy'], new_input['Manufacturer'], np.nan, 
+new_input['Prod. year'], new_input['Category'],new_input['Leather interior'],
+ new_input['Fuel type'], new_input['Engine volume'] , new_input['Mileage'],
+ new_input['Cylinders'],new_input['Gear box type'], new_input['Drive wheels'],
+ np.nan, new_input['Wheel'], new_input['Color'], new_input['Airbags'])
 
 # Process data
 input_processed_df = pipeline.entire_pipeline(input_df, man_encoder, cat_encoder,fuel_encoder, gbt_encoder, dw_encoder,color_encoder, scaler)
