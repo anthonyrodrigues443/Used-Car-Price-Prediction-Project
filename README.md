@@ -9,7 +9,8 @@ A machine learning web application that predicts car prices based on various fea
 
 ## Project Structure
 ```
-car-price-prediction/
+Used-Car-Price-Prediction-Project/
+├── main.ipynb                 # EDA and Model Building Notebook ()
 ├── app.py                     # Flask application
 ├── pipeline.py                # Data preprocessing pipeline
 ├── requirements.txt           # Project dependencies
@@ -47,8 +48,8 @@ car-price-prediction/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/car-price-prediction.git
-cd car-price-prediction
+git clone https://github.com/Sharkytony/Used-Car-Price-Prediction-Project.git
+cd Used-Car-Price-Prediction-Project
 
 # Create virtual environment
 python -m venv venv
