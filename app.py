@@ -35,7 +35,7 @@ def index():
 
 @app.route('/preds', methods=['GET', 'POST'])
 def prediction():
-    new_input =request.form.to_dict()
+    new_input = request.form.to_dict()
     if new_input['Turbo'] == 'Yes':
         new_input['Engine volume'] = new_input['Engine volume'] + ' Turbo'
     else :
