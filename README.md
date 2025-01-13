@@ -5,8 +5,8 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-red.svg)](https://scikit-learn.org/)
 
 ## Overview
-A machine learning web application that predicts car prices based on various features like manufacturer, model year, mileage, and other specifications. The project uses Random Forest Regression for predictions and Flask for the web interface.
-<img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_1.png" width=100px>
+A machine learning web application that predicts car prices based on various features like manufacturer, model year, mileage, and other specifications. The project uses Random Forest Regression for predictions and Flask for the web interface.<br>
+<img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_1.png" width=400px>
 ## Project Structure
 ```
 Used-Car-Price-Prediction-Project/
