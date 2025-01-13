@@ -10,7 +10,7 @@ A machine learning web application that predicts car prices based on various fea
 ## Project Structure
 ```
 Used-Car-Price-Prediction-Project/
-├── main.ipynb                 # EDA and Model Building Notebook ()
+├── main.ipynb                 # EDA and Model Building Notebook
 ├── app.py                     # Flask application
 ├── pipeline.py                # Data preprocessing pipeline
 ├── requirements.txt           # Project dependencies
