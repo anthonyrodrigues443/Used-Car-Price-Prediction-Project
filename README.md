@@ -1,4 +1,4 @@
-# Car Price Prediction Web Application
+# Used Car Price Prediction - Supervised ML
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
