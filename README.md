@@ -132,4 +132,4 @@ The project uses a Random Forest Regression model trained on historical car pric
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/LICENSE) file for details.
