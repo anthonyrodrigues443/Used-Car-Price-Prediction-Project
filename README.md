@@ -6,6 +6,16 @@
 
 ## Overview
 A machine learning web application that predicts car prices based on various features like manufacturer, model year, mileage, and other specifications. The project uses Random Forest Regression for predictions and Flask for the web interface.<br>
+
+## Aim
+1. Develop an accurate machine learning model to estimate used car market values
+2. Create a data-driven pricing tool for buyers, sellers, and automotive platforms
+3. Identify key factors influencing used car prices through feature importance analysis
+4. Reduce pricing uncertainty and information asymmetry in the used car market
+5. Build a scalable prediction system that adapts to changing market dynamics
+6. Provide transparent and interpretable price predictions
+
+
 <img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_1.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_2.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_3.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_op.png" width=400px>
 
 ## Project Structure
