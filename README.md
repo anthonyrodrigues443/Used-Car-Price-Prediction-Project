@@ -1,13 +1,13 @@
-# Used Car Price Prediction - Supervised ML
+# Used Car Price Prediction 🚗 - Supervised ML
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-red.svg)](https://scikit-learn.org/)
 
-## Overview
+## Overview 🔎
 A machine learning web application that predicts car prices based on various features like manufacturer, model year, mileage, and other specifications. The project uses Random Forest Regression for predictions and Flask for the web interface.<br>
 
-## Aim
+## Aim 🎯
 1. Develop an accurate machine learning model to estimate used car market values
 2. Create a data-driven pricing tool for buyers, sellers, and automotive platforms
 3. Identify key factors influencing used car prices through feature importance analysis
@@ -18,7 +18,7 @@ A machine learning web application that predicts car prices based on various fea
 
 <img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_1.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_2.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_3.png" width=400px><img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/web_page_images/web_op.png" width=400px>
 
-## Project Structure
+## Project Structure 🗂️
 ```
 Used-Car-Price-Prediction-Project/
 ├── main.ipynb                 # EDA and Model Building Notebook
@@ -41,7 +41,7 @@ Used-Car-Price-Prediction-Project/
     └── predictions.html     # Results display template
 ```
 
-## Features
+## Features ⭐
 - Comprehensive data preprocessing pipeline
 - Support for various car specifications:
   - Manufacturer and Model
@@ -55,7 +55,7 @@ Used-Car-Price-Prediction-Project/
 - Data scaling for numerical features
 - Web interface for easy predictions
 
-## Installation
+## Installation 🧑‍🔧
 
 ```bash
 # Clone the repository
@@ -70,7 +70,7 @@ source car_price_prediction\Scripts\activate # Activate virtual environment
 pip install -r requirements.txt
 ```
 
-## Usage
+## Usage 👨🏻‍💻
 
 1. Start the Flask application:
 ```bash
@@ -83,7 +83,7 @@ python app.py
 
 4. Click "Predict" to get the estimated car price
 
-## Data Preprocessing Pipeline
+## Data Preprocessing Pipeline ⛓️
 
 The project includes a robust data preprocessing pipeline that handles:
 
@@ -99,7 +99,7 @@ The project includes a robust data preprocessing pipeline that handles:
    - Color Schemes
 4. Feature Scaling
 
-Example usage of the pipeline:
+Example usage of the pipeline: 
 
 ```python
 import pipeline
@@ -120,7 +120,7 @@ pred_price = loaded_model.predict(input_processed_df)
 
 ```
 
-## Model Details
+## Model Details 🤖
 
 The project uses a Random Forest Regression model trained on historical car price data. Key features of the model:
 
@@ -132,7 +132,7 @@ The project uses a Random Forest Regression model trained on historical car pric
 
 <img src="https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/feature_importances.png">
 
-## Contributing
+## Contributing 🤝
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -140,6 +140,8 @@ The project uses a Random Forest Regression model trained on historical car pric
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+## License 📋
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Sharkytony/Used-Car-Price-Prediction-Project/blob/main/LICENSE) file for details.
+
+<h3>⭐ Don't forget to star the repository if you find it helpful!
