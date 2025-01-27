@@ -1,8 +1,8 @@
 # Used Car Price Prediction - Supervised ML
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24+-red.svg)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-3.0+-green.svg)](https://flask.palletsprojects.com/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.5+-red.svg)](https://scikit-learn.org/)
 
 ## Overview
 A machine learning web application that predicts car prices based on various features like manufacturer, model year, mileage, and other specifications. The project uses Random Forest Regression for predictions and Flask for the web interface.<br>
