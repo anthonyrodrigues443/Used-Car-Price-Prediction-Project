@@ -1,3 +1,6 @@
 #not pushing on github because of file size > 100mb
 model/
+#virtual env
 shc_proj/
+#scraped data
+organized_cars_structure/ 
